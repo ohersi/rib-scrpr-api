@@ -5,7 +5,7 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
-app.get('/api/matches', async (req, res) => {
+app.get('/matches', async (req, res) => {
     const matches = await getMatchData();
     res.json(matches);
 });
