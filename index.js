@@ -10,5 +10,4 @@ app.get('/api/matches', async (req, res) => {
     res.json(matches);
 });
 
-
 app.listen(PORT, () => console.log(`server is running on PORT ${PORT}`))
