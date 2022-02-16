@@ -16,7 +16,10 @@ const getMatchData = async () => {
   try {
     const response = await axios.request(options)
     const matches = response.data.data
-    return matches;
+    const newMatches = matches.filter(item => (
+      item.startDate = new Date(item.startDate).toLocaleString()
+    ));
+    return newMatches;
   }
   catch (error) {
     console.error(error)
