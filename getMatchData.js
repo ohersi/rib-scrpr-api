@@ -2,8 +2,8 @@ const axios = require('axios');
 
 var options = {
   method: 'GET',
-  url: 'https://backend-prod.rib.gg/v1/series',
-  params: { take: '100', minStartDate: '2022-02-06T13:06:48.327Z' },
+  url: 'https://be-prod.rib.gg/v1/series',
+  params: { take: '100' },
   headers: {
     Connection: 'keep-alive',
     Pragma: 'no-cache',
