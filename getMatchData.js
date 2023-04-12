@@ -3,7 +3,7 @@ const axios = require('axios');
 var options = {
   method: 'GET',
   url: 'https://be-prod.rib.gg/v1/series',
-  params: { take: '100' },
+  params: { take: '200' },
   headers: {
     Connection: 'keep-alive',
     Pragma: 'no-cache',
