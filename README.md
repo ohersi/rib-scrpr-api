@@ -3,7 +3,7 @@
 
 An API for Valorant esports match information.
 
-https://rib-scrpr-api.up.railway.app/matches
+https://rib-scrpr-api.onrender.com/matches
 
 
 ## API Endpoint
